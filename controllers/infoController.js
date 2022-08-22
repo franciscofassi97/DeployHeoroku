@@ -12,6 +12,7 @@ const recuperarInfo = (_, res) => {
     processId: process.pid,
     file: __dirname,
     numeroCpu: numeroCpu,
+    heroku: "App despelgada en heroku"
   }
 
 
